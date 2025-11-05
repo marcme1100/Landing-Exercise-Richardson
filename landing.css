@@ -1,8 +1,4 @@
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghost of Tsushima - Complete Guide</title>
-    <style>
         * {
             margin: 0;
             padding: 0;
@@ -157,22 +153,37 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("Jin_art_work.webp")
+            background-image: url("Jin_art_work.webp");
+        background-repeat: no-repeat;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         }
-         .card-content-2 {
+        .card-content-2 {
             font-size: 1.1rem;
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("Lord_Shimura5-removebg-preview.png")
+            background-image: url("Lord_Shimura5-removebg-preview.png");
+        background-repeat: no-repeat;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         }
 
-         .card-content-3 {
+        .card-content-3 {
             font-size: 1.1rem;
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("Yuna1-removebg-preview.png")
+            background-image: url("Yuna1-removebg-preview.png");
+        background-repeat: no-repeat;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         }
 
         .card-content-4 {
@@ -180,7 +191,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/Masako-1.-Masako-Combat-removebg-preview.png")
         }
 
          .card-content-5 {
@@ -188,7 +198,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/EternalBlueSky_33-removebg-preview.png")
         }
 
          .card-content-6 {
@@ -196,7 +205,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/Ghost-mongol_257E06-removebg-preview.png")
         }
 
          .card-content-7 {
@@ -204,7 +212,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/Mongolianbrute123-removebg-preview.png")
         }
 
          .card-content-8 {
@@ -212,7 +219,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/got-archer-mongol-rank-3-removebg-preview.png")
         }
 
          .card-content-9 {
@@ -220,7 +226,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/spearmen-enemies-ghost-of-tsushima-wiki-guide-300px-removebg-preview.png")
         }
 
          .card-content-10 {
@@ -228,7 +233,6 @@
             line-height: 1.8;
             color: #d8d8d8;
             margin-bottom: 1rem;
-            background-image: url("/Users/student2/Documents/css/images-removebg-preview.png")
         }
 
         .info-list {
@@ -303,6 +307,130 @@
                 grid-template-columns: 1fr;
             }
         }
-    
-    
-    </style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #000;
+            color: #e8e8e8;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(0, 0, 0, 0.95);
+            padding: 1rem 2rem;
+            z-index: 100;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ff8080;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: url("ghost-of-tsushima-hero.jpg") center/cover no-repeat;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .title {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 0 5px 15px rgba(255, 50, 50, 0.5);
+            margin-bottom: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #ddd;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            color: #ff8080;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(30, 30, 30, 0.7);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.4s ease;
+            backdrop-filter: blur(5px);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 50px rgba(255, 255, 255, 0.1);
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            background: #000;
+            color: #666;
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 3rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+        }
